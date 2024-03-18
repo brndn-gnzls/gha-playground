@@ -22,8 +22,8 @@ jobs:
 
             - name: Commit Files
               run: |
-                git config --global user.name 'github-actions'
-                git config --global user.email 'githut-actions@github.com'
+                git config --global user.name 'brndn-gnzls'
+                git config --global user.email 'wes.gonzales@elevancehealth.com'
                 git add build/*
                 git commit -m "Automated design token transformation" -a || echo "No changes to commit"
                 git push --set-upstream https://x-access-token:${{secrets.ACTION_TOKEN}}@github.com/brndn-gnzls/gha-playground.git
