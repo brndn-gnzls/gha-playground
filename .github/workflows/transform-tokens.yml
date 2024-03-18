@@ -26,4 +26,4 @@ jobs:
                 git config --global user.email 'wes.gonzales@elevancehealth.com'
                 git add build/*
                 git commit -m "Automated design token transformation" -a || echo "No changes to commit"
-                git push --set-upstream https://x-access-token:${{ secrets.ACTION_TOKEN }}@github.com/brndn-gnzls/gha-playground.git
+                git push --set-upstream https://x-access-token:${{ secrets.ACT_TRANFORM_TOKEN }}@github.com/brndn-gnzls/gha-playground.git
