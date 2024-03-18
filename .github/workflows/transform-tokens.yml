@@ -26,4 +26,4 @@ jobs:
                 git config --global user.email 'githut-actions@github.com'
                 git add build/*
                 git commit -m "Automated design token transformation" -a || echo "No changes to commit"
-                git push --setup-upstream https://x-access-token:${{secrets.ACTION_TOKEN}}@github.com/brndn-gnzls/gha-playground.git
+                git push --set-upstream https://x-access-token:${{secrets.ACTION_TOKEN}}@github.com/brndn-gnzls/gha-playground.git
