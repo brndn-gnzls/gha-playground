@@ -10,4 +10,4 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Print Greeting
-              run: echo "[+] GitHub action successfuly triggered!"
+              run: echo "[+] GitHub action successfuly triggered."
