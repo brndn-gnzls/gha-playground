@@ -22,7 +22,7 @@ jobs:
 
             - name: Commit Files
               run: |
-                git config --global user.name 'brndn-gnzls'
+                git config --global user.name 'AE06909'
                 git config --global user.email 'wes.gonzales@elevancehealth.com'
                 git add build/*
                 git commit -m "Automated design token transformation" -a || echo "No changes to commit"
