@@ -1,0 +1,29 @@
+name: Transform and Build Design Tokens
+
+on: push
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                node-version: '20'
+
+            - name: Install Dependencies
+              run: npm install
+
+            - name: Run Style Dictionary
+              run: npx style-dictionary build
+
+            - name: Commit Files
+              run: |
+                git config --global user.name 'github-actions'
+                git config --global user.email 'githut-actions@github.com'
+                git add build/*
+                git commit -m "Automated design token transformation" -a || echo "No changes to commit"
+                git push
