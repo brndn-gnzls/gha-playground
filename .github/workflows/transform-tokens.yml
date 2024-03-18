@@ -8,6 +8,8 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
+              with:
+                token: ${{ secrets.ACT_TRANFORM_TOKEN}}
 
             - name: Setup Node
               uses: actions/setup-node@v4
