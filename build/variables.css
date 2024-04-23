@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 15:36:17 GMT
+ * Generated on Tue, 23 Apr 2024 16:08:12 GMT
  */
 
 :root {
+  --global-margin-lg: 32px;
   --global-btn-color: #8800ff;
   --global-btn-txt-primary: white;
   --global-btn-txt-secondary: black;
@@ -16,4 +17,14 @@
   --global-btn-height-lg: 80px;
   --global-btn-height-sm: 40px;
   --global-btn-error: #ff0000;
+  --global-drd-app-off: none;
+  --global-drd-app-on: on;
+  --global-drd-bgcolor-prim: #00ff00;
+  --global-drd-bgcolor-secondary: #0000ff;
+  --global-drd-width-default: 25em;
+  --global-drd-height-default: 4em;
+  --global-drd-border-off: none;
+  --global-drd-border-on: 1px solid red;
+  --global-drd-border-radius-sm: 5px;
+  --global-drd-border-radius-lg: 10px;
 }
