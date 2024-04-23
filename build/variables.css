@@ -1,15 +1,19 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 15:16:29 GMT
+ * Generated on Tue, 23 Apr 2024 15:36:17 GMT
  */
 
 :root {
   --global-btn-color: #8800ff;
-  --global-btn-padding-12: 12px;
-  --global-btn-padding-24: 24px;
+  --global-btn-txt-primary: white;
+  --global-btn-txt-secondary: black;
+  --global-btn-padding-sm: 12px;
+  --global-btn-padding-lg: 24px;
   --global-btn-border-on: 1px solid black;
   --global-btn-border-off: none;
   --global-btn-width-lg: 120px;
   --global-btn-width-sm: 60px;
+  --global-btn-height-lg: 80px;
+  --global-btn-height-sm: 40px;
   --global-btn-error: #ff0000;
 }
