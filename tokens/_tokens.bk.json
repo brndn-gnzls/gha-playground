@@ -1,0 +1,106 @@
+{
+    "global": {
+      "margin-lg": {
+        "value": "34px",
+        "type": "margin"
+      },
+      "btn-color": {
+        "value": "#ff0000",
+        "type": "color"
+      },
+      "btn-txt-primary":
+      {
+        "value": "white",
+        "type": "color"
+      },
+      "btn-txt-secondary":
+      {
+        "value": "black",
+        "type": "color"
+      },
+      "btn-padding-sm":
+      {
+        "value": "12px",
+        "type": "padding"
+      },
+      "btn-padding-lg":
+      {
+        "value": "36px",
+        "type": "padding"
+      },
+      "btn-border-on":
+      {
+        "value": "1px solid black",
+        "type":"border"
+      },
+      "btn-border-off":
+      {
+        "value": "none",
+        "type": "border"
+      },
+      "btn-width-lg":
+      {
+        "value": "120px",
+        "type": "width"
+      },
+      "btn-width-sm":
+      {
+        "value": "60px",
+        "type": "width"
+      },
+      "btn-height-lg":
+      {
+        "value": "80px",
+        "type": "height"
+      },
+      "btn-height-sm":
+      {
+        "value": "40px",
+        "type": "width"
+      },
+      "btn-error": {
+        "value": "#ff0000",
+        "type": "color"
+      },
+      "drd-app-off": {
+        "value": "none",
+        "type": "appearance"
+      },
+      "drd-app-on": {
+        "value": "on",
+        "type": "appearance"
+      },
+      "drd-bgcolor-prim": {
+        "value": "#0000ff",
+        "type": "background"
+      },
+      "drd-bgcolor-secondary": {
+        "value": "#ff0000",
+        "type": "background"
+      },
+      "drd-width-default": {
+        "value": "25em",
+        "type": "width"
+      },
+      "drd-height-default": {
+        "value": "4em",
+        "type": "width"
+      },
+      "drd-border-off": {
+        "value": "none",
+        "type": "border"
+      },
+      "drd-border-on": {
+        "value": "1px solid red",
+        "type": "border"
+      },
+      "drd-border-radius-sm": {
+        "value": "10px",
+        "type": "border"
+      },
+      "drd-border-radius-lg": {
+        "value": "15px",
+        "type": "border"
+      }
+    }
+  }
