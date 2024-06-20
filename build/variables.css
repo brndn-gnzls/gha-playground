@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jun 2024 07:38:09 GMT
+ * Generated on Thu, 20 Jun 2024 08:00:10 GMT
  */
 
 :root {
@@ -49,7 +49,7 @@
   --global-border-login-btn: rgb(59 130 246);
   --global-hero-img: url('images/hero-img.png');
   --global-hero-pos: 0 50%;
-  --global-hero-height: 570px;
+  --global-hero-height: 500px;
   --global-text-size-5xl: 48px;
   --global-h1-leading: 48px;
   --global-text-lg: 18px;
@@ -75,4 +75,5 @@
   --global-mt-20: 80px;
   --global-pt-20: 80px;
   --global-pb-20: 80px;
+  --global-pt-mh: 32px;
 }
