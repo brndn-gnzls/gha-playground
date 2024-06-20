@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jun 2024 08:00:10 GMT
+ * Generated on Thu, 20 Jun 2024 08:10:17 GMT
  */
 
 :root {
@@ -64,7 +64,7 @@
   --global-ico-rep: no-repeat;
   --global-ico-pos: center;
   --global-ico-feat-fltr: brightness(0) invert(1);
-  --global-pad-96: 96px 96px;
+  --global-pad-96: 64px 64px;
   --global-feat-bg: #1e40af;
   --global-feat-clr: #fff;
   --global-bg-blue-200: rgb(191 219 254);
