@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 31 Jul 2024 19:03:51 GMT
+ * Generated on Sun, 22 Sep 2024 18:55:44 GMT
  */
 
 :root {
@@ -27,34 +27,34 @@
   --global-drd-border-on: 1px solid red;
   --global-drd-border-radius-sm: 10px;
   --global-drd-border-radius-lg: 15px;
-  --global-none: 12px solid #F9FAFB;
+  --global-none: 0;
   --global-txt-sm: 14px;
-  --global-txt-base: 14px;
-  --global-txt-lg: 14px;
-  --global-txt-xl: 18px;
-  --global-mh-txt: #333;
+  --global-txt-base: 16px;
+  --global-txt-lg: 18px;
+  --global-txt-xl: 24px;
+  --global-mh-txt: #fff;
   --global-lib-brdr: #3b82f6;
-  --global-ph-bg: #3b82f6;
-  --global-bg-gray-200: rgb(29 78 216);
-  --global-text-black: #fff;
-  --global-bg-white: #2c915b;
-  --global-text-blue-500: #fff;
-  --global-rounded-3xl: 12px;
+  --global-ph-bg: #fff;
+  --global-bg-gray-200: rgb(229 231 235);
+  --global-text-black: #333;
+  --global-bg-white: #fff;
+  --global-text-blue-500: rgb(59 130 246);
+  --global-rounded-3xl: 24px;
   --global-pxy-63: 12px 24px 12px 24px;
   --global-text-semibold: 600;
-  --global-border-blue-500: 2px solid #2c915b;
+  --global-border-blue-500: 2px solid rgb(59 130 246);
   --global-bg-blue-500: rgb(59 130 246);
   --global-text-white: #fff;
   --global-text-login-btn: #fff;
   --global-border-login-btn: rgb(59 130 246);
-  --global-hero-img: url('images/masthead-bg.jpeg');
+  --global-hero-img: url('images/hero-img.png');
   --global-hero-pos: 0 50%;
-  --global-hero-height: 510px;
-  --global-text-size-5xl: 36px;
-  --global-h1-leading: 36px;
-  --global-text-lg: 16px;
-  --global-bg-green-500: #f4ba01;
-  --global-bg-phbtn: rgb(40, 108, 226);
+  --global-hero-height: 500px;
+  --global-text-size-5xl: 48px;
+  --global-h1-leading: 48px;
+  --global-text-lg: 18px;
+  --global-bg-green-500: rgb(34 197 94);
+  --global-bg-phbtn: #fff;
   --global-ico-feat1: url('images/feat1.svg');
   --global-ico-feat2: url('images/feat2.svg');
   --global-ico-feat3: url('images/feat3.svg');
@@ -63,17 +63,17 @@
   --global-ico-size: contain;
   --global-ico-rep: no-repeat;
   --global-ico-pos: center;
-  --global-ico-feat-fltr: brightness(1) invert(0);
-  --global-pad-96: 26px 96px;
-  --global-feat-bg: white;
-  --global-feat-clr: #333;
-  --global-bg-blue-200: #fff;
-  --global-text-blue-800: #333;
-  --global-text-size-3xl: 30px;
-  --global-text-size-xl: 20px;
-  --global-text-size-2xl: 30px;
-  --global-mt-20: 90px;
-  --global-pt-20: 90px;
-  --global-pb-20: 90px;
-  --global-pt-mh: 60px;
+  --global-ico-feat-fltr: brightness(0) invert(1);
+  --global-pad-96: 64px 64px;
+  --global-feat-bg: #1e40af;
+  --global-feat-clr: #fff;
+  --global-bg-blue-200: rgb(191 219 254);
+  --global-text-blue-800: rgb(30 64 175);
+  --global-text-size-3xl: 36px;
+  --global-text-size-xl: 28px;
+  --global-text-size-2xl: 32px;
+  --global-mt-20: 80px;
+  --global-pt-20: 80px;
+  --global-pb-20: 80px;
+  --global-pt-mh: 32px;
 }
