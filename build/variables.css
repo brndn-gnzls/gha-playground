@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Sep 2024 13:50:22 GMT
+ * Generated on Thu, 05 Dec 2024 15:49:34 GMT
  */
 
 :root {
@@ -27,7 +27,7 @@
   --global-drd-border-on: 1px solid red;
   --global-drd-border-radius-sm: 10px;
   --global-drd-border-radius-lg: 15px;
-  --global-none: 12px solid #F9FAFB;
+  --global-none: 14px solid #F9FAFB;
   --global-txt-sm: 14px;
   --global-txt-base: 14px;
   --global-txt-lg: 14px;
